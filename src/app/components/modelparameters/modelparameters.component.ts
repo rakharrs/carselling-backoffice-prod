@@ -192,9 +192,9 @@ export class ModelparametersComponent implements OnInit{
   }
 
   private initializeDataTable(): void {
-    let dataTable = new DataTable(this.motorlist.nativeElement,{info : false, searching : true, lengthChange : false});
+    /*let dataTable = new DataTable(this.motorlist.nativeElement,{info : false, searching : true, lengthChange : false});
     let dataTable2 = new DataTable(this.fuellist.nativeElement,{info : false,searching : true , lengthChange : false});
-    let dataTable3 = new DataTable(this.gearlist.nativeElement,{info : false,searching : true , lengthChange : false});
+    let dataTable3 = new DataTable(this.gearlist.nativeElement,{info : false,searching : true , lengthChange : false});*/
     // ... configuration supplémentaire de dataTable si nécessaire
   }
 
