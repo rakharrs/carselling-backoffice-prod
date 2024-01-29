@@ -9,7 +9,7 @@ import { Model } from '../../../mapping/Model';
 })
 export class ModelService {
 
-  private url : string = "http://localhost:8080/model";
+  private url : string = "https://car-selling-ws-prod-production-1011.up.railway.app/model";
   constructor(private http : HttpClient) { }
 
 

@@ -9,7 +9,7 @@ import { ModelGearBox } from '../../../../mapping/CarParameters/ModelGearBox';
 })
 export class ModelGearBoxService {
 
-  url : string = "http://localhost:8080/modelGearBox"
+  url : string = "https://car-selling-ws-prod-production-1011.up.railway.app/modelGearBox"
   constructor(private http : HttpClient) { }
 
   findAll(token : string):Observable<Apiresponse>{

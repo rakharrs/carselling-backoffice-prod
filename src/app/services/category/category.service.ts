@@ -9,7 +9,7 @@ import { Apiresponse } from '../../../mapping/response/Apiresponse';
 })
 export class CategoryService {
 
-  private url : string = "http://localhost:8080/category";
+  private url : string = "https://car-selling-ws-prod-production-1011.up.railway.app/category";
   constructor(private http : HttpClient) { }
 
 

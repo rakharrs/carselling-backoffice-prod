@@ -10,7 +10,7 @@ import { Apiresponse } from '../../../mapping/response/Apiresponse';
 })
 export class BrandService {
 
-  private url : string = "http://localhost:8080/brand";
+  private url : string = "https://car-selling-ws-prod-production-1011.up.railway.app/brand";
   constructor(private http : HttpClient) { }
 
   findAll(token : string):Observable<Apiresponse>{

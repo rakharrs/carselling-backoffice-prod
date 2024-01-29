@@ -9,7 +9,7 @@ import { ModelMotor } from '../../../../mapping/CarParameters/ModelMotor';
 })
 export class ModelMotorService {
 
-  url : string = "http://localhost:8080/modelMotor"
+  url : string = "https://car-selling-ws-prod-production-1011.up.railway.app/modelMotor"
   constructor(private http : HttpClient) { }
 
   findAll(token : string):Observable<Apiresponse>{

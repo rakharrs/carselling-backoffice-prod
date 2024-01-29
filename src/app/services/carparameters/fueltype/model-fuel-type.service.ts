@@ -9,7 +9,7 @@ import { ModelFuelType } from '../../../../mapping/CarParameters/ModelFuelType';
 })
 export class ModelFuelTypeService {
 
-  url : string = "http://localhost:8080/modelFuelType"
+  url : string = "https://car-selling-ws-prod-production-1011.up.railway.app/modelFuelType"
   constructor(private http : HttpClient) { }
 
   findAll(token : string):Observable<Apiresponse>{

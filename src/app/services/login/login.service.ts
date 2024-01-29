@@ -8,7 +8,7 @@ import { Userlogin } from '../../../mapping/login/Userlogin';
   providedIn: 'root'
 })
 export class LoginService {
-  url : string = "http://localhost:8080/login"
+  url : string = "https://car-selling-ws-prod-production-1011.up.railway.app/login"
 
   constructor( private http : HttpClient){}
 

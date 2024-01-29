@@ -9,7 +9,7 @@ import { Apiresponse } from '../../../../mapping/response/Apiresponse';
 })
 export class MotorisationService {
 
-  url : string = "http://localhost:8080/motorisation"
+  url : string = "https://car-selling-ws-prod-production-1011.up.railway.app/motorisation"
   constructor(private http : HttpClient) { }
   findAll(token : string):Observable<Apiresponse>{
     const headers = new HttpHeaders({

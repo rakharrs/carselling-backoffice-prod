@@ -8,7 +8,7 @@ import { Apiresponse } from '../../../../mapping/response/Apiresponse';
   providedIn: 'root'
 })
 export class GearBoxService {
-  url : string = "http://localhost:8080/gearBox"
+  url : string = "https://car-selling-ws-prod-production-1011.up.railway.app/gearBox"
   constructor(private http : HttpClient) { }
 
   findAll(token : string):Observable<Apiresponse>{
